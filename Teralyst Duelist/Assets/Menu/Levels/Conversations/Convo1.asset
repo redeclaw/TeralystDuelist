@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f8fd361c951c9428e9c1b3a3f8ff66, type: 3}
+  m_Name: Convo1
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 81993f31be4bb11439f4b17b4874e3a0, type: 3}
+  Music: {fileID: 8300000, guid: 3a568741a80fc6d42a8b86c4af21dc5e, type: 3}
+  MusicEdited: {fileID: 8300000, guid: 3a568741a80fc6d42a8b86c4af21dc5e, type: 3}
+  allLines:
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: Another day of work finished.
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: '*sigh*'
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "What am I even living for?\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "12 hours a day slaving away at this thankless job.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "God, I miss the times I had weekends off. At least I had something
+      to look forward to then. Now all I can see ahead of me is more work.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "It\u2019s like deja vu: I swear everyday there\u2019s another idiot
+      who wants to berate me over something I had nothing to do with.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "My coworkers are all assholes, too. I know they\u2019re always badmouthing
+      me behind my back.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "It\u2019s not like I really care or anything, but they\u2019re all
+      just so fucking annoying.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "I just want one decent person to talk to. It\u2019s so miserable being
+      alone\u2026\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "If only I could go back to high school. Life was so much simpler back
+      then\u2026\r"

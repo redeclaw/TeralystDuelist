@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f8fd361c951c9428e9c1b3a3f8ff66, type: 3}
+  m_Name: Convo4
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 694f935cc0356ea4a8883a2761705cf9, type: 3}
+  Music: {fileID: 8300000, guid: a017e8c1d4aebe54eb21b14718cedc61, type: 3}
+  MusicEdited: {fileID: 8300000, guid: a017e8c1d4aebe54eb21b14718cedc61, type: 3}
+  allLines:
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "We navigate through the tight alleyways of Scin until we get to a
+      somewhat rundown looking bar. \u201CShallow\u201D is emblazoned in bright neon
+      above the doors. Even from outside, I can feel vibrations from the booming
+      club music being played.\r"
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: Here it is. What do you think?
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "The bar? It\u2019s fine, I guess. Do you work here?"
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "It\u2019s my place."
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: Oh.
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: (Wait, is he joking? He looks WAY too young to be running a bar.)
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: Come on, your match is gonna start soon.
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: Telin nods to the bouncer at the door, who nods back and lets us in.
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: The bar is packed. Telin just pushes his way through the masses of
+      people, but I have to slide between them to get through.
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Eventually, we reach the back of the bar, where there\u2019s a dueling
+      stage set up. I make my way to one side of the stage, and scan myself in. On
+      the other side of the stage, a man is waiting, with arms crossed.\r\n"
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "Blod, this is David. He\u2019ll be your opponent for tonight.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Blod looks me up and down with a sneer.\r"
+  - speaker: {fileID: 11400000, guid: 1c0620e761afaff4a85b4acb40f3fd50, type: 2}
+    Dialogue: I expected someone a little more impressive. Do you really think you
+      can beat me?
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: Got free tickets by competing. Not a big deal whether I win or lose.
+  - speaker: {fileID: 11400000, guid: 1c0620e761afaff4a85b4acb40f3fd50, type: 2}
+    Dialogue: "Scum like you don\u2019t stand a chance against me. I\u2019m gonna
+      pound your face into the dirt."
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "(Alright, asshole. It\u2019s on.)\r"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "We\u2019ll see about that."
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "As Blod and I have been arguing, a crowd has started to gather around
+      the stage. Suddenly, the club music that\u2019s been booming in my ears stops.
+      A voice rings out through the bar\u2019s speakers.\r"

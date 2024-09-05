@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8085143644988344055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8085143644988344048}
+  - component: {fileID: 8085143644988344050}
+  - component: {fileID: 8085143644988344049}
+  - component: {fileID: 3388255596857402162}
+  - component: {fileID: 2722117050882665424}
+  - component: {fileID: -6098746602320311880}
+  - component: {fileID: -2087760659042768749}
+  m_Layer: 6
+  m_Name: Collection Card
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8085143644988344048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8085143644988344050
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_CullTransparentMesh: 1
+--- !u!114 &8085143644988344049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5eac227795b2bb24788320b5df74f3ce, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3388255596857402162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: CollectionZoom, Assembly-CSharp
+          m_MethodName: OnHoverEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: CollectionZoom, Assembly-CSharp
+          m_MethodName: OnHoverExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: CollectionCard, Assembly-CSharp
+          m_MethodName: OnClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2722117050882665424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 8
+  m_StartCorner: 3
+  m_StartAxis: 0
+  m_CellSize: {x: 24, y: 24}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &-6098746602320311880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc35f792bf19624fa72b879d9d4b4f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardImage: {fileID: 8085143644988344049}
+  PlayerCard: {fileID: 8085143644988344055}
+  ID: 0
+  cardList: {fileID: -2087760659042768749}
+  TextBackground: {fileID: 7460887256716613400, guid: 41aaf7e138c13cb41a519ecaad51c0c7, type: 3}
+  CardTitleText: {fileID: 5096115150496213623, guid: 98c61d525fad9d143b2853bb86428598, type: 3}
+  BaseStrength: 0
+  CardStrengthText: {fileID: 5813546232385736543, guid: 35aff10e4bdd7c346a3b346f5ae0ab4f, type: 3}
+  RarityStar: {fileID: 5502662102558342438, guid: 405b966af3740eb48abef8fa15e7b64b, type: 3}
+  Ability: 0
+  Potency: 0
+  Condition: 0
+  Requirement: 0
+  RoundAbility: 0
+  RoundPotency: 0
+  Description: 
+  PlayerSide: 0
+  ElementImages:
+  - {fileID: 21300000, guid: 00de3f8f13341c3429dae66be22109a0, type: 3}
+  - {fileID: 21300000, guid: 22acf8a7142f9044a87751da77d3fb66, type: 3}
+  - {fileID: 21300000, guid: c613adece6a535e4ab4ad1fca6a72f01, type: 3}
+  - {fileID: 21300000, guid: bc9fed727d2e9b343a0571efcc514dab, type: 3}
+  Element: 0
+  ElementDisplay: {fileID: 843005957821228666, guid: e7ac9f15aaa49e94c9a7fc07991d439b, type: 3}
+  InCollection: 0
+--- !u!114 &-2087760659042768749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8085143644988344055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab99b82f240c834a83f9efd64f0a333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardFaces:
+  - {fileID: 21300000, guid: 16126ae3f3b33f548a68fdb5f040071d, type: 3}
+  - {fileID: 21300000, guid: 7357a8fd774dd9e4394f9c0c862933e6, type: 3}
+  - {fileID: 21300000, guid: 5b25560043868c940bc8537470fc6c90, type: 3}
+  - {fileID: 21300000, guid: 2e27eca0c1ecc6b4f992220a26ffd74a, type: 3}
+  - {fileID: 21300000, guid: 75bbc5bd2a9e31e47a4259624e1b8eef, type: 3}
+  - {fileID: 21300000, guid: 82503eda0dc7ea144bcb6c01babf7c59, type: 3}
+  - {fileID: 21300000, guid: 5cd4c97e04a954043af5ccf93ce8f7a6, type: 3}
+  - {fileID: 21300000, guid: a7ca5c836fcdb4542bf812a600439ed4, type: 3}
+  - {fileID: 21300000, guid: 58e3834a36b29e74bb16682cfa2e6e50, type: 3}
+  - {fileID: 21300000, guid: 5ffcdd03c69e2c841a90f817f8aba2d6, type: 3}
+  - {fileID: 21300000, guid: 6b7c93b6916f7c7499d1af80ca726a6b, type: 3}
+  - {fileID: 21300000, guid: b008b30fb260b2d4892772da4eb0fa8b, type: 3}
+  - {fileID: 21300000, guid: 566c41bd53fc8ec4a9b90d9e325ddc8a, type: 3}
+  - {fileID: 21300000, guid: e4123e751f437c241836cc6098f7d3a1, type: 3}
+  - {fileID: 21300000, guid: c1b91ab13a2fdb746ae8ffe218868413, type: 3}
+  - {fileID: 21300000, guid: 7c0a36f0f157ea247bed7b845d27bc8c, type: 3}
+  - {fileID: 21300000, guid: 63efdbfd5a340c64a95c463f39896dd0, type: 3}
+  - {fileID: 21300000, guid: d6f8b0cd6b9086b4998ee2879c007d7d, type: 3}
+  - {fileID: 21300000, guid: 8e849b8179eddb5459d401b680c05eae, type: 3}
+  - {fileID: 21300000, guid: f7dc4362ae384144e90c3c979e120f01, type: 3}
+  - {fileID: 21300000, guid: f7dc4362ae384144e90c3c979e120f01, type: 3}
+  - {fileID: 21300000, guid: f7dc4362ae384144e90c3c979e120f01, type: 3}
+  - {fileID: 21300000, guid: 8978b012dc81c6d4e9c44d2d811e3dcf, type: 3}
+  - {fileID: 21300000, guid: 8978b012dc81c6d4e9c44d2d811e3dcf, type: 3}
+  AbilityList: []
+  CondList: []
+  RoundAbilList: []

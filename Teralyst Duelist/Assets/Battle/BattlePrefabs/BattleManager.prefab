@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1231878828184546676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760420725476570125}
+  - component: {fileID: 2357506134756735545}
+  - component: {fileID: 6559379552069477309}
+  m_Layer: 0
+  m_Name: BattleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760420725476570125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231878828184546676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 879.05963, y: 574.621, z: -13.704474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2357506134756735545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231878828184546676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8bcb763ee22744ab565fdae617a9a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DropZone: {fileID: 0}
+  PlayerCard: {fileID: 4498748858936302920, guid: 8e00abb847fada14e8dc934a0b94f766, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  CoinCanvas: {fileID: 0}
+  DarkEffect: {fileID: 7932209404513864791, guid: 4281e28a434a30343b127001f6f73031, type: 3}
+  Coin: {fileID: 5972787987746866857, guid: e9649a25642cd1e459a7d1a1d4f75e3c, type: 3}
+  StartingDeck: 
+  EnemyStarting: 
+  SelectedCards: 
+  PassButton: {fileID: 0}
+  PassText: {fileID: 0}
+  healthBarPlayer: {fileID: 0}
+  healthBarEnemy: {fileID: 0}
+  PlayerMaxHealth: 50
+  PlayerCurrentHealth: 0
+  EnemyMaxHealth: 50
+  EnemyCurrentHealth: 0
+  PlayerHealthDisplay: {fileID: 0}
+  EnemyHealthDisplay: {fileID: 0}
+  EnemyCardDisplay: {fileID: 0}
+  RoundDisplay: {fileID: 0}
+  PlayerImage: {fileID: 0}
+  EnemyImage: {fileID: 0}
+  PlayerStrengthMod: 0
+  EnemyStrengthMod: 0
+  RoundCount: 0
+  tutorialManager: {fileID: 6559379552069477309}
+  SoundEffectSource: {fileID: 0}
+  CardDrawSound: {fileID: 8300000, guid: 41422c3a3991af54fb520bd71d43b2d6, type: 3}
+  ButtonPressSound: {fileID: 8300000, guid: e61163f8756c4854c9aa04c534dceaee, type: 3}
+--- !u!114 &6559379552069477309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231878828184546676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986874a0d824b304f87c65201a7c2afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleManager: {fileID: 2357506134756735545}
+  PlayerArea: {fileID: 0}
+  TutorialTextBackgorund: {fileID: 0}
+  TutorialText: {fileID: 0}
+  ZoomCanvas: {fileID: 0}
+  NextButton: {fileID: 0}
+  MainCanvasGroup: {fileID: 0}

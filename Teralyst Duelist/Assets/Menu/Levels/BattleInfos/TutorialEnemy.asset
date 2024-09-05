@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b74fe9c857e8044b7c826c2b8fb55d, type: 3}
+  m_Name: TutorialEnemy
+  m_EditorClassIdentifier: 
+  EnemyName: Louis
+  EnemyDeck: 000000000100000002000000030000000b0000000c0000000f00000006000000
+  EnemyDamage: 2
+  EnemyHealth: 35

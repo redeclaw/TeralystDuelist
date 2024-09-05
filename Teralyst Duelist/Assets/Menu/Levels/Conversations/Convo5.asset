@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f8fd361c951c9428e9c1b3a3f8ff66, type: 3}
+  m_Name: Convo5
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 694f935cc0356ea4a8883a2761705cf9, type: 3}
+  Music: {fileID: 8300000, guid: a017e8c1d4aebe54eb21b14718cedc61, type: 3}
+  MusicEdited: {fileID: 8300000, guid: a017e8c1d4aebe54eb21b14718cedc61, type: 3}
+  allLines:
+  - speaker: {fileID: 11400000, guid: a77c48a58dce3794cbf5f0aa6cd9043d, type: 2}
+    Dialogue: "Duelists of Scin, have we got a show for you tonight!\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "The crowd erupts.\r"
+  - speaker: {fileID: 11400000, guid: a77c48a58dce3794cbf5f0aa6cd9043d, type: 2}
+    Dialogue: Who wants to see Nobody face off against Blaze?
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: Another cheer.
+  - speaker: {fileID: 11400000, guid: a77c48a58dce3794cbf5f0aa6cd9043d, type: 2}
+    Dialogue: "Well\u2026 uh\u2026 they aren\u2019t actually here yet. But for now,
+      we\u2019ve got the undercard for you!"
+  - speaker: {fileID: 11400000, guid: a77c48a58dce3794cbf5f0aa6cd9043d, type: 2}
+    Dialogue: "On the left, we\u2019ve got\u2026uh\u2026 The mysterious challenger!
+      No one has ever seen his face on the stage before! What tricks is he going
+      to bring?"
+  - speaker: {fileID: 11400000, guid: a77c48a58dce3794cbf5f0aa6cd9043d, type: 2}
+    Dialogue: "And on the right, we\u2019ve got Bruiser! Coming off a series of tough
+      losses, lets see if he has what it takes to secure a win this time!"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "The announcer\u2019s voice is blasting through the speakers, and the
+      crowd is roaring, but I can barely hear them. All I can feel is the blood pounding
+      in my ears.\r"
+  - speaker: {fileID: 11400000, guid: a77c48a58dce3794cbf5f0aa6cd9043d, type: 2}
+    Dialogue: "Duelistssss! Are you ready! Let\u2019s Duel!\r"

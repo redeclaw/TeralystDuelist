@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f8fd361c951c9428e9c1b3a3f8ff66, type: 3}
+  m_Name: Convo2a
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 81993f31be4bb11439f4b17b4874e3a0, type: 3}
+  Music: {fileID: 8300000, guid: 5b3d821a633d83b4e8b756f9431be007, type: 3}
+  MusicEdited: {fileID: 8300000, guid: 5b3d821a633d83b4e8b756f9431be007, type: 3}
+  allLines:
+  - speaker: {fileID: 11400000, guid: 1a72cca400ab39848926359f9a9adae7, type: 2}
+    Dialogue: "Wow David, you really are the best!\r"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "Haha, I\u2019ve just been playing for a while is all.\r"
+  - speaker: {fileID: 11400000, guid: 97ad4fcf3d7f699459b26dca0b6cf21c, type: 2}
+    Dialogue: "Just you wait David! When I come back tomorrow, I\u2019ll be way stronger!\r"

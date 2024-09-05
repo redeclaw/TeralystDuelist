@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f8fd361c951c9428e9c1b3a3f8ff66, type: 3}
+  m_Name: Convo2
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 81993f31be4bb11439f4b17b4874e3a0, type: 3}
+  Music: {fileID: 8300000, guid: 5b3d821a633d83b4e8b756f9431be007, type: 3}
+  MusicEdited: {fileID: 8300000, guid: 5b3d821a633d83b4e8b756f9431be007, type: 3}
+  allLines:
+  - speaker: {fileID: 11400000, guid: 1a72cca400ab39848926359f9a9adae7, type: 2}
+    Dialogue: "Guys, take a look! David\u2019s here!\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Ahh, high school. When all I had to worry about was finishing my homework
+      and winning duels.\r"
+  - speaker: {fileID: 11400000, guid: 97ad4fcf3d7f699459b26dca0b6cf21c, type: 2}
+    Dialogue: "You\u2019re in trouble now, David! I finally got a deck of my own.
+      You might be good at dueling, but you\u2019re no match for me!"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "You wish! A deck isn\u2019t everything. You need toughness to be able
+      to withstand my attacks, and the strength to deal damage yourself. Plus, the
+      strength of your cards won\u2019t matter if you don\u2019t play them correctly!"
+  - speaker: {fileID: 11400000, guid: 97ad4fcf3d7f699459b26dca0b6cf21c, type: 2}
+    Dialogue: "I\u2019ll show you! Let\u2019s have a duel, right now!"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "You\u2019re on!"

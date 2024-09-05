@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f8fd361c951c9428e9c1b3a3f8ff66, type: 3}
+  m_Name: Convo3
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 81993f31be4bb11439f4b17b4874e3a0, type: 3}
+  Music: {fileID: 8300000, guid: 8221425b64f4af347ab15e99b88ea9ca, type: 3}
+  MusicEdited: {fileID: 8300000, guid: 1751a61aa08fae649b3abdd4b551022e, type: 3}
+  allLines:
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Man, those were the times. If only I cou\u2026\r"
+  - speaker: {fileID: 11400000, guid: 199856e027635294a99fab5427c6763d, type: 2}
+    Dialogue: Hey! You there!
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "(Is that guy talking to me? I don\u2019t see anyone else around.)\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Maybe if I keep walking he\u2019ll give up.\r"
+  - speaker: {fileID: 11400000, guid: 199856e027635294a99fab5427c6763d, type: 2}
+    Dialogue: You with the Casamara T-shirt!
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "(Okay, he\u2019s definitely talking to me.)"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: Guess I better get this over with.
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: What do you want?
+  - speaker: {fileID: 11400000, guid: 199856e027635294a99fab5427c6763d, type: 2}
+    Dialogue: "You\u2019re a duelist, right?"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "Uh yeah, how\u2019d you know?"
+  - speaker: {fileID: 11400000, guid: 199856e027635294a99fab5427c6763d, type: 2}
+    Dialogue: Your earring.
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: (Crap, I really should stop wearing that around.)
+  - speaker: {fileID: 11400000, guid: 199856e027635294a99fab5427c6763d, type: 2}
+    Dialogue: "I\u2019m Telin. You watching Blaze vs. Nothing tonight?"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: David. Been looking forward to it all month.
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "How\u2019d you like front row seats?"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Pff. Yeah right. Even if I had the money to purchase tickets, there\u2019s
+      no way I\u2019d buy them from some rando on the street."
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: Short on cash at the moment, sorry.
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "I try to turn away, but he grabs me by the shoulder, holding me in
+      place. His grip is oddly firm.\r"
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "Not looking for cash. One of our duelists dropped out last minute.
+      We\u2019re missing a person for the undercard."
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "I didn\u2019t realize there\u2019d be a fight before the main event.
+      I guess the event wouldn\u2019t last very long with just one duel. Tickets
+      would be nice, but I\u2019m not looking to get beat up on live TV.\r"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: Not interested.
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "I\u2019ll make it worth your while. 1000 creds if you win."
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: "Look, I\u2019m busy tonight. The last time I played was when I was
+      in high school. Go find someone else."
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "Look, I don\u2019t care how bad of a player you are, you have a chance
+      against this guy. He\u2019s an A tier idiot. I don\u2019t care how long it\u2019s
+      been since you last played, if you go up there and give it your best shot,
+      you\u2019ll have a solid chance at winning.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "Okay, that\u2019s pretty bad. I haven\u2019t changed my deck at all
+      since I played in high school, and I still might have a chance."
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "I haven\u2019t played in years. There\u2019s basically zero chance
+      I win this. This will probably take up my entire night, and I\u2019ve got dinner
+      to cook and laundry to do. If I lose, not only will I have embarrassed myself
+      on live TV, but I'll also probably be up all night catching up with all the
+      time I wasted.\r"
+  - speaker: {fileID: 11400000, guid: 487faee2f54d7eb46a3bfd24dec283ef, type: 2}
+    Dialogue: "But for some reason, I feel like I can believe Telin. 1000 creds is
+      some good money. That\u2019s a month\u2019s worth of pay right there. If I
+      do manage to win this, it\u2019d be totally worth it. And even if I lose, I
+      guess tickets would be kinda nice.\r"
+  - speaker: {fileID: 11400000, guid: d9f613004b22ea84ca9ad26965ac3952, type: 2}
+    Dialogue: " \u2026 Alright. I\u2019m in."
+  - speaker: {fileID: 11400000, guid: 753e0d1a75d7b2d4abd02fa8c6c2bfe5, type: 2}
+    Dialogue: "Glad to hear it. Follow me, I\u2019ll take you to the place."

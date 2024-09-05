@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aab11066c2d45743b418fce58ef9c13, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  Scenes: 0000000000000000030000000000000000000000000000000000000002000000
+  BattleInfos:
+  - {fileID: 11400000, guid: 79ca204f323955f419b850231dba4e9c, type: 2}
+  - {fileID: 11400000, guid: 7bbbeed1c26e8ee4683cb463a6987817, type: 2}
+  Conversations:
+  - {fileID: 11400000, guid: c916133727bf9c6419d6a50e075b16c5, type: 2}
+  - {fileID: 11400000, guid: 8081bbee853dcd348ab64bcb5f8fc02f, type: 2}
+  - {fileID: 11400000, guid: 827ea2761217c4d49ba774521f5abeb4, type: 2}
+  - {fileID: 11400000, guid: c1fc6e0589d1aec4e910acc6ad302493, type: 2}
+  - {fileID: 11400000, guid: 43c4895f62151e74aabc31dc96e0cbdb, type: 2}
+  - {fileID: 11400000, guid: a12aef6c46fc88c45b9d81075c862231, type: 2}
+  NumScenes: 8
